@@ -3,7 +3,7 @@ import pickle
 from flask import Flask, request, render_template
 
 # Load ML model
-modelgb = pickle.load(open('modelgb.pkl', 'rb'))
+modelgb = pickle.load(open('modelsv.pkl', 'rb'))
 modelrf = pickle.load(open('modelrf.pkl', 'rb'))
 modelknn = pickle.load(open('modelknn.pkl', 'rb'))
 
